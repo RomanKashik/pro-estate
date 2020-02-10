@@ -50,30 +50,30 @@ const rigger = require('gulp-rigger');
 const gcmq = require('gulp-group-css-media-queries');
 const jpegrecompress = require('imagemin-jpeg-recompress');
 const pngquant = require('imagemin-pngquant');
-const htmlbeautify = require('gulp-html-beautify');
+// const htmlbeautify = require('gulp-html-beautify');
 
-const htmlbeautifyOptions = {
-	"indent_size": 1,
-	"indent_char": "	",
-	"eol": "\n",
-	"indent_level": 0,
-	"indent_with_tabs": true,
-	"preserve_newlines": false,
-	"max_preserve_newlines": 10,
-	"jslint_happy": false,
-	"space_after_anon_function": false,
-	"brace_style": "collapse",
-	"keep_array_indentation": false,
-	"keep_function_indentation": false,
-	"space_before_conditional": true,
-	"break_chained_methods": false,
-	"eval_code": false,
-	"unescape_strings": false,
-	"wrap_line_length": 0,
-	"wrap_attributes": "auto",
-	"wrap_attributes_indent_size": 4,
-	"end_with_newline": false
-};
+// const htmlbeautifyOptions = {
+// 	"indent_size": 1,
+// 	"indent_char": "	",
+// 	"eol": "\n",
+// 	"indent_level": 0,
+// 	"indent_with_tabs": true,
+// 	"preserve_newlines": false,
+// 	"max_preserve_newlines": 10,
+// 	"jslint_happy": false,
+// 	"space_after_anon_function": false,
+// 	"brace_style": "collapse",
+// 	"keep_array_indentation": false,
+// 	"keep_function_indentation": false,
+// 	"space_before_conditional": true,
+// 	"break_chained_methods": false,
+// 	"eval_code": false,
+// 	"unescape_strings": false,
+// 	"wrap_line_length": 0,
+// 	"wrap_attributes": "auto",
+// 	"wrap_attributes_indent_size": 4,
+// 	"end_with_newline": false
+// };
 
 gulp.task('webserver', function () {
    webserver.init({
@@ -94,7 +94,7 @@ gulp.task('html:build', function () {
             }
          })
       }))
-      .pipe(htmlbeautify(htmlbeautifyOptions))
+      // .pipe(htmlbeautify(htmlbeautifyOptions))
       .pipe(gulp.dest(path.build.html))
       .pipe(webserver.stream());
 });
