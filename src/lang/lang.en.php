@@ -138,7 +138,7 @@ $Lang = array(
     //Contact Form
     'contact_title'          => 'Leave your feedback',
     'contact_subtitle'       => 'and our manager will contact you',
-    'contact_label_email'    => 'and our manager will contact you',
+    'contact_label_email'    => 'Your phone or e-mail',
     'contact_label_service'  => 'Service type :',
     'contact_label_textarea' => 'Write us your situation',
 

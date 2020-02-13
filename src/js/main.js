@@ -18,47 +18,8 @@ $(function () {
         })
     })
 
-
-
-
-
-    //     let files = [];
-
-
-    //     button= document.getElementById('button');
-    //     loader = document.getElementById('loader');
-    //     list = document.getElementById('list');
-
-    //     button.addEventListener('click', function () {
-    //         loader.click();
-    //     });
-
-    //     loader.addEventListener('change', function () {
-    //         for (let i = 0; i < loader.files.length; i++) {
-    //             let file = loader.files[i]
-    //             let item = document.createElement('div')
-    //             item.classList.add('order__form-close-file')
-
-    //             files.push(file)
-    //             list.appendChild(item)
-
-    //             item.textContent = file.name
-    //             item.addEventListener('click', function () {
-    //                 // files = files.filter(f => f.name !== file.name)
-    //                 files = files.filter(function(f){return f.name !== file.name})
-
-    //                 item.remove()
-    //             })
-    //         }
-
-    //         loader.value = ''
-
-    //     });
-
-    // });
-
-
 })
+// Load file to form
 var files = [];
 var button = document.getElementById('button');
 var loader = document.getElementById('loader');

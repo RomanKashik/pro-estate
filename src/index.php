@@ -12,6 +12,7 @@ require_once('lang/lang.php');
 
 	<link rel="stylesheet" href="libs/normalize.css" />
 	<link rel="stylesheet" href="libs/magnific-popup.css" />
+<!--	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap&subset=latin-ext" rel="stylesheet">-->
 	<link rel="stylesheet" href="fonts/stylesheet.css">
 	<link rel="stylesheet" href="css/main.css">
 	<title>Pro Estate</title>
@@ -53,9 +54,7 @@ require_once('lang/lang.php');
 		<div class="header__content">
 
 			<h1 class="header__title"><?php echo $Lang['main_title'];?></h1>
-
-            <?php echo $Lang['main_subtitle'];?>
-
+					<?php echo $Lang['main_subtitle'];?>
 			<a href="#popup_about" class="btn header__btn popup_about_link">
 				<span class="header__btn-text"><?php echo $Lang['header_button'];?></span>
 				<img src="images/icon/icon_arrow.png" alt="About us">

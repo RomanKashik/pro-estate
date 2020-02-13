@@ -19,9 +19,9 @@ $Lang = array(
     //Main title
     'main_title'              => 'Visu veidu nekustamo <br> īpašumu darījumi',
     'main_subtitle'           => '<p class="header__subtitle">Palīdzēsim nokārtot visu, kas saistīts ar nekustamā īpašuma 
-                                                                pirkšanu, pārdošanu, nomu. </p>
+                                                                pirkšanu, pārdošanu, nomu.</p>
                                   <p class="header__subtitle">Pilna juridiskā pavadība,</p>
-			                      <p class="header__subtitle">  bezmaksas konsultācijas klientiem.</p>',
+			                      <p class="header__subtitle">bezmaksas konsultācijas klientiem.</p>',
     'header_button'           => 'Par mums',
 
     //Our Services
