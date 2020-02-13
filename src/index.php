@@ -28,10 +28,10 @@ require_once('lang/lang.php');
 			</a>
 			<ul class="nav__menu">
 				<li class="nav__item"><a class="nav__link popup_about_link" href="#popup_about"><?php echo $Lang['about_us'];?></a></li>
-				<li class="nav__item"><a class="nav__link" href="#services"><?php echo $Lang['our_services'];?></a></li>
+				<li class="nav__item"><a class="nav__link" href="#ourServices"><?php echo $Lang['our_services'];?></a></li>
 				<li class="nav__item"><a class="nav__link" href="#why"><?php echo $Lang['why_we'];?></a></li>
 				<li class="nav__item"><a class="nav__link" href="#order"><?php echo $Lang['leave_request'];?></a></li>
-				<li class="nav__item"><a class="nav__link" href="#contacts"><?php echo $Lang['contact_us'];?></a></li>
+				<li class="nav__item"><a class="nav__link" href="#contact"><?php echo $Lang['contact_us'];?></a></li>
 			</ul>
 			<div class="nav__phone"><a href="tel:+(371) 26858674">+(371) 26858674</a></div>
 			<div class="nav__social">
@@ -67,7 +67,7 @@ require_once('lang/lang.php');
 	</div>
 </header>
 <main>
-	<section class="services" id="services">
+	<section class="services" id="ourServices">
 		<div class="container">
 			<h2 class="main-title services__title"><?php echo $Lang['services_title'];?></h2>
 			<p class="services__subtitle"><?php echo $Lang['services_subtitle'];?></p>
@@ -184,7 +184,7 @@ require_once('lang/lang.php');
 	<section class="order" id="order">
 		<div class="container">
 			<h2 class="main-title order__title">Заказ</h2>
-			<form action="#" method="post" class="order__form" enctype="multipart/form-data">
+			<form action="mail.php" method="post" class="order__form" enctype="multipart/form-data">
 				<div class="order__form-title"><?php echo $Lang['contact_title'];?></div>
 				<p class="order__form-subtitle"><?php echo $Lang['contact_subtitle'];?></p>
 
